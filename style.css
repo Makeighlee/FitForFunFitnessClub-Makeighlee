@@ -1,0 +1,51 @@
+/* Makeighlee McGowan, June 24th,2023. 
+            Fit for Fun Fitness Club. 
+            Fit for Fun Fitness Club-Makeighlee McGowan. */
+
+
+            body{
+                background-color: #3e4444;
+                text-align: center;
+            }
+            
+            a {
+                text-decoration: none;
+                font-size: 30px;
+            }
+            
+            a:visited {
+                color:#3e4444;
+            }
+            a:hover {
+                background-color: aliceblue;
+            }
+
+            h1 {
+                font-variant: small-caps;
+            }
+
+            h2 {
+                font-variant: small-caps;
+            }
+
+            nav {
+                background-color: #82b74b;
+                box-shadow: 2px 5px 5px grey;
+            }
+
+            table{margin: 100px 0px 0px 200px; width: 80%}
+            table, th, td {border:2px green solid; }
+
+            th, td {padding:15px; text-align: center;}
+
+            tr:nth-child(even){
+                background-color: gray;
+            }
+
+            tr:nth-child(odd){
+                background-color: black;
+            }
+
+            th{
+                background-color: yellowgreen;
+            }

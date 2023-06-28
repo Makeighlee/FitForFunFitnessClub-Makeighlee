@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<!--Makeighlee McGowan, June 24th, 2023
+    Fit for Fun Fitness Club
+    Fit for Fun Fitness Club Makeighlee McGowan-->   
+     <meta charset="utf-8">
+    <title>Information Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a> | <a href="classes.html">Clases</a> | <a href="info.html">Information</a>
+  </nav> 
+    <h2>Information Form</h2>
+    <div class="container">
+        <form method="get" action="thankyou-1.html">
+          <fieldset>
+            <legend>
+              Contact Information:
+            </legend>
+                <label for="fname">
+                    Name:
+                    <input autofocus type="text" name="fname" id="fname" required placeholder="First Name">
+                </label>
+                <label for="lname">
+                  Last Name:
+                <input type="text" name="lname" id="lname" required placeholder="Last Name">
+                </label>
+                <label for="email">
+                  Email:
+                <input type="email" name="email" id="email" required placeholder="Email">
+              </label>
+              <label for="phone">
+                Phone Number:
+              <input type="text" name="phone" id="phone" required placeholder="Phone Number">
+              </label>
+        </fieldset>
+
+            <fieldset>
+          
+              <input type="radio" id="AM" name="AM" value="AM">
+
+                    <label for="AM">AM</label><br>
+                    <input type="radio" id="PM" name="PM" value="PM">
+                    <label for="PM">PM</label><br>
+            </fieldset>
+
+            <fieldset>
+              <legend>
+                Classes You Want To Take:
+              </legend>
+                <input type="checkbox" id="Class1" name="Cycling" >
+                <label for="Class1"> Cycling</label><br>
+                <input type="checkbox" id="Class2" name="Pilates" >
+                <label for="Class2"> Pilates</label><br>
+                <input type="checkbox" id="Class3" name="Yoga" >
+                <label for="Class3"> Yoga</label><br>
+               
+            </fieldset>
+
+            <fieldset>
+              <legend>
+                Additional Info:
+              </legend>
+              <label for="AddInfo">
+              <input type="text" name="AddInfo" id="AddInfo" required placeholder="Any additonal info">
+              </label>
+            </fieldset>
+            <input class="submit" type="submit" value="Submit">
+        </form>
+
+
+    </div>
+    <footer>
+      <p>Makeighlee McGowan, June 24th, 2023 &#169; </p>
+ </footer>
+  </body>
+</html>
